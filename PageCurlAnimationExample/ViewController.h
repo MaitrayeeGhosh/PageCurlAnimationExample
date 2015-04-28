@@ -9,7 +9,17 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+{
+    UIView *tempUIView;
+}
 
+- (IBAction)didTapFullCurlLeftBtn:(id)sender;
+- (IBAction)didtapFullCurlRightBtn:(id)sender;
+- (IBAction)didTapHalfCurlLeftBtn:(id)sender;
+- (IBAction)didTapHalfCurlRightBtn:(id)sender;
+- (IBAction)didTapHalfCurlUpBtn:(id)sender;
+- (IBAction)didTapCurlDownBtn:(id)sender;
+@property (weak, nonatomic) IBOutlet UIView *animatedUIView;
 
 @end
 
